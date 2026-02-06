@@ -1,0 +1,2 @@
+# david-fernandez-portfolio
+Portfolio profesional: proyectos Java/Spring Boot (APIs REST, JWT, Swagger, JPA/MyBatis), Docker y buenas prácticas.
