@@ -43,7 +43,7 @@ const skills = [
   "Swagger/OpenAPI",
   "JPA (Hibernate)",
   "MyBatis",
-  "MySQL",
+  "PostgreSQL",
   "Oracle",
   "Docker",
   "Git",
@@ -60,7 +60,7 @@ const projects = [
       "Docker Compose + tests",
     ],
     links: { repo: "#", demo: "#", swagger: "#" },
-    tags: ["Spring Boot", "JWT", "JPA", "MySQL"],
+    tags: ["Spring Boot", "JWT", "JPA", "PostgreSQL"],
   },
   {
     title: "DataBridge Persistence",
@@ -394,7 +394,7 @@ export default function App({ mode, setMode }) {
               {[
                 { k: "+7 años", v: "Experiencia en backend" },
                 { k: "JWT · Spring Security", v: "APIs seguras" },
-                { k: "Oracle · MySQL", v: "Persistencia SQL" },
+                { k: "Oracle · PostgreSQL", v: "Persistencia SQL" },
               ].map((it) => (
                 <Grid item xs={12} sm={4} key={it.k}>
                   <Box
